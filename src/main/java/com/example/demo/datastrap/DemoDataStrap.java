@@ -50,5 +50,6 @@ public class DemoDataStrap implements CommandLineRunner {
         publisherRepository.save(publisher);
 
         System.out.println("Publisher count: " + publisherRepository.count());
+        System.out.println("Author count: " + authorRepository.count());
     }
 }
