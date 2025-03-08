@@ -1,11 +1,11 @@
 package com.example.demo.controller;
 
 import com.example.demo.repositories.BookRepository;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class BookController {
 
     private final BookRepository bookRepository;
